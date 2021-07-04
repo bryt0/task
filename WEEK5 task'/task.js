@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
     console.log('request was made' + req.url);
     if(req.url === '/' || req.url === '/home'){
         res.writeHead(200, {'content-type': 'text/html'})
-        fs.createReadStream (__dirname + '/home.html').pipe(res);
+        fs.createReadStream (__dirname + '/index.html').pipe(res);
         
     } else if (req.url === '/about' || req.url === '/about-us'){
         res.writeHead(200, {'content-type': 'text/html'})
