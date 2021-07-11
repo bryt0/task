@@ -1,0 +1,20 @@
+{
+  "name": "weeksix",
+  "version": "1.0.0",
+  "description": "e-commerce_app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "task": "nodemon index.js"
+  },
+  "keywords": [
+    "e-commerce"
+  ],
+  "author": "bright",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {}
+}
