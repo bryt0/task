@@ -1,4 +1,4 @@
-let products = require('../models/Product.js')
+let products = require('../models/Product')
 
 const getProducts = (req, res) =>{
     return res.json(products);
