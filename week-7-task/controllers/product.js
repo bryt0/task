@@ -17,7 +17,7 @@ const getSpecificProduct = (req, res) =>{
 
 const createProduct = (req, res) =>{
 
-    if(!req.body.name || !req.body.description || !req.body.image || !req.body.price){
+    if (!req.body.name || !req.body.description || !req.body.image || !req.body.price){
        return res.status(400).send('Please, fill all the required fields.')
     }else{
 let newProduct = {
